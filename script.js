@@ -48,7 +48,12 @@ const increasePeople = () => {
 }
 
 const decreasePeople = () => {
-    // increament the amount of people
+
+    if (numberOfPeople <= 1) {
+        return
+    }
+
+    // decreament the amount of people
     numberOfPeople -= 1
 
     // update the DOM with the new number of people

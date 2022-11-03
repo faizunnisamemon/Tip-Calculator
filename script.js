@@ -46,3 +46,14 @@ const increasePeople = () => {
     // calculate the bill based on the new number of people
     calculateBill()
 }
+
+const decreasePeople = () => {
+    // increament the amount of people
+    numberOfPeople -= 1
+
+    // update the DOM with the new number of people
+    numberOfPeopleDiv.innerText = numberOfPeople
+
+    // calculate the bill based on the new number of people
+    calculateBill()
+}

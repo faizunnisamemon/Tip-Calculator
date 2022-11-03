@@ -35,3 +35,14 @@ const calculateBill = () => {
     // Update the per person total and show it to DOM
     perPersonTotalDiv.innerText = `$${ perPersonTotal.toFixed(2)}`
 }
+
+const increasePeople = () => {
+    // increament the amount of people
+    numberOfPeople += 1
+
+    // update the DOM with the new number of people
+    numberOfPeopleDiv.innerText = numberOfPeople
+
+    // calculate the bill based on the new number of people
+    calculateBill()
+}

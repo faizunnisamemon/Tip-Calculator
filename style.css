@@ -31,7 +31,7 @@
   }
   
   .inputContainer {
-    background: #35593d;
+    background: rgb(53, 89, 61);
     border-radius: 1.4rem;
     padding: 0 0.8rem;
     display: flex;
@@ -48,7 +48,7 @@
   }
   
   .buttonContainer {
-    background: #8990ec;
+    background: rgb(53, 89, 61);
     display: grid;
     place-items: center;
     width: 1.6rem;
@@ -74,7 +74,7 @@
   }
   
   .buttonText {
-    color: #353959 !important;
+    color: #0b0c13 !important;
   }
   
   .splitAmount {
